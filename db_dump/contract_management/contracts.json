@@ -1,0 +1,254 @@
+[
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de50",
+    "title": "Cloud Infrastructure Service Agreement",
+    "description": "Annual agreement for AWS cloud infrastructure services including compute, storage, and networking resources for the enterprise platform.",
+    "parties": [
+      "TechCorp Inc.",
+      "AWS Solutions Ltd."
+    ],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2026-01-01T00:00:00.000Z",
+    "status": "Active",
+    "createdBy": "69e9b5e7eeab6f32d6b4de46",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e7eeab6f32d6b4de46",
+        "details": "Contract \"Cloud Infrastructure Service Agreement\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de51",
+        "timestamp": "2026-04-23T06:02:16.499Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.500Z",
+    "updatedAt": "2026-04-23T06:02:16.500Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de53",
+    "title": "Software License Agreement - Enterprise Suite",
+    "description": "License agreement for the Enterprise Suite software including 500 user seats, premium support, and annual upgrades.",
+    "parties": [
+      "InnovateTech Solutions",
+      "Microsoft Corporation"
+    ],
+    "startDate": "2025-03-15T00:00:00.000Z",
+    "endDate": "2026-03-15T00:00:00.000Z",
+    "status": "Active",
+    "createdBy": "69e9b5e8eeab6f32d6b4de4c",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e8eeab6f32d6b4de4c",
+        "details": "Contract \"Software License Agreement - Enterprise Suite\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de54",
+        "timestamp": "2026-04-23T06:02:16.506Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.506Z",
+    "updatedAt": "2026-04-23T06:02:16.506Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de56",
+    "title": "Marketing Services Contract",
+    "description": "Digital marketing services including SEO, SEM, social media management, and content creation for Q1-Q2 2025.",
+    "parties": [
+      "Digital Dynamics Agency",
+      "GrowFast Startup"
+    ],
+    "startDate": "2025-01-15T00:00:00.000Z",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "status": "Executed",
+    "createdBy": "69e9b5e7eeab6f32d6b4de46",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e7eeab6f32d6b4de46",
+        "details": "Contract \"Marketing Services Contract\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de57",
+        "timestamp": "2026-04-23T06:02:16.507Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.508Z",
+    "updatedAt": "2026-04-23T06:02:16.508Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de59",
+    "title": "Office Lease Agreement",
+    "description": "Commercial office lease for Suite 400, Building A, covering 5000 sqft of premium office space in the downtown business district.",
+    "parties": [
+      "Pinnacle Realty Group",
+      "TechCorp Inc."
+    ],
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "endDate": "2027-05-31T00:00:00.000Z",
+    "status": "Active",
+    "createdBy": "69e9b5e7eeab6f32d6b4de46",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e7eeab6f32d6b4de46",
+        "details": "Contract \"Office Lease Agreement\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de5a",
+        "timestamp": "2026-04-23T06:02:16.509Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.509Z",
+    "updatedAt": "2026-04-23T06:02:16.509Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de5c",
+    "title": "Consulting Engagement - Data Migration",
+    "description": "Professional consulting engagement for migrating legacy database systems to modern cloud-based solutions. Includes assessment, planning, execution, and testing phases.",
+    "parties": [
+      "DataPro Consulting",
+      "Legacy Systems Corp",
+      "CloudFirst Inc."
+    ],
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-08-31T00:00:00.000Z",
+    "status": "Active",
+    "createdBy": "69e9b5e8eeab6f32d6b4de4c",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e8eeab6f32d6b4de4c",
+        "details": "Contract \"Consulting Engagement - Data Migration\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de5d",
+        "timestamp": "2026-04-23T06:02:16.510Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.510Z",
+    "updatedAt": "2026-04-23T06:02:16.510Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de5f",
+    "title": "NDA - Product Collaboration",
+    "description": "Non-disclosure agreement covering confidential information shared during joint product development and collaboration activities.",
+    "parties": [
+      "InnovateTech Solutions",
+      "PartnerCo Global"
+    ],
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "endDate": "2026-04-01T00:00:00.000Z",
+    "status": "Draft",
+    "createdBy": "69e9b5e8eeab6f32d6b4de4c",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e8eeab6f32d6b4de4c",
+        "details": "Contract \"NDA - Product Collaboration\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de60",
+        "timestamp": "2026-04-23T06:02:16.512Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.512Z",
+    "updatedAt": "2026-04-23T06:02:16.512Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de62",
+    "title": "Maintenance & Support Contract",
+    "description": "Annual maintenance and 24/7 technical support contract for enterprise network infrastructure including routers, switches, firewalls, and VPN systems.",
+    "parties": [
+      "NetSecure Technologies",
+      "TechCorp Inc."
+    ],
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "status": "Expired",
+    "createdBy": "69e9b5e7eeab6f32d6b4de46",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e7eeab6f32d6b4de46",
+        "details": "Contract \"Maintenance & Support Contract\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de63",
+        "timestamp": "2026-04-23T06:02:16.513Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.514Z",
+    "updatedAt": "2026-04-23T06:02:16.514Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9b5e8eeab6f32d6b4de65",
+    "title": "Freelance Design Services Agreement",
+    "description": "Contract for UI/UX design services for the new customer portal redesign project, including wireframing, prototyping, and final design deliverables.",
+    "parties": [
+      "Creative Studios LLC",
+      "TechCorp Inc."
+    ],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "status": "Draft",
+    "createdBy": "69e9b5e8eeab6f32d6b4de4c",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e8eeab6f32d6b4de4c",
+        "details": "Contract \"Freelance Design Services Agreement\" created",
+        "_id": "69e9b5e8eeab6f32d6b4de66",
+        "timestamp": "2026-04-23T06:02:16.515Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:02:16.515Z",
+    "updatedAt": "2026-04-23T06:02:16.515Z",
+    "__v": 0
+  },
+  {
+    "_id": "69e9baf2ea0f325f1b754cc4",
+    "title": "Engineering Bridge Contract",
+    "description": "New Bridge is created on ganga bank",
+    "parties": [
+      "BJP"
+    ],
+    "startDate": "2026-05-15T00:00:00.000Z",
+    "endDate": "2026-06-12T00:00:00.000Z",
+    "status": "Draft",
+    "createdBy": "69e9b5e7eeab6f32d6b4de46",
+    "isDeleted": false,
+    "deletedAt": null,
+    "activityLog": [
+      {
+        "action": "CREATED",
+        "performedBy": "69e9b5e7eeab6f32d6b4de46",
+        "details": "Contract \"Engineering Bridge Contract\" created",
+        "_id": "69e9baf2ea0f325f1b754cc5",
+        "timestamp": "2026-04-23T06:23:46.475Z"
+      }
+    ],
+    "versions": [],
+    "createdAt": "2026-04-23T06:23:46.481Z",
+    "updatedAt": "2026-04-23T06:23:46.481Z",
+    "__v": 0
+  }
+]

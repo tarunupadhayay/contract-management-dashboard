@@ -1,0 +1,4 @@
+.form-card {
+  padding: var(--space-xl);
+  max-width: 800px;
+}

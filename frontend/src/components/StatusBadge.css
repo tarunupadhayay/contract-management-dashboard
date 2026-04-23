@@ -1,0 +1,55 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-draft {
+  background: var(--color-status-draft-bg);
+  color: var(--color-status-draft);
+}
+.status-draft .status-dot {
+  background: var(--color-status-draft);
+  box-shadow: 0 0 6px var(--color-status-draft);
+}
+
+.status-active {
+  background: var(--color-status-active-bg);
+  color: var(--color-status-active);
+}
+.status-active .status-dot {
+  background: var(--color-status-active);
+  box-shadow: 0 0 6px var(--color-status-active);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.status-executed {
+  background: var(--color-status-executed-bg);
+  color: var(--color-status-executed);
+}
+.status-executed .status-dot {
+  background: var(--color-status-executed);
+  box-shadow: 0 0 6px var(--color-status-executed);
+}
+
+.status-expired {
+  background: var(--color-status-expired-bg);
+  color: var(--color-status-expired);
+}
+.status-expired .status-dot {
+  background: var(--color-status-expired);
+  box-shadow: 0 0 6px var(--color-status-expired);
+}

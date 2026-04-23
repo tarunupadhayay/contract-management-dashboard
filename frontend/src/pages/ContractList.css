@@ -1,0 +1,61 @@
+.contract-list-search {
+  margin-bottom: var(--space-md);
+}
+
+.contract-table-wrapper {
+  padding: 0;
+  overflow: hidden;
+}
+
+.contract-table-wrapper .data-table {
+  margin: 0;
+}
+
+.contract-title-link {
+  color: var(--color-text-primary);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.contract-title-link:hover {
+  color: var(--color-accent-light);
+}
+
+.parties-cell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.party-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.party-more {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  padding: 2px 4px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.delete-confirm p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.btn-secondary.active {
+  background: var(--color-accent-glow);
+  border-color: var(--color-accent);
+  color: var(--color-accent-light);
+}

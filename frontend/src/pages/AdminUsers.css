@@ -1,0 +1,4 @@
+/* Admin Users Page — minimal custom styles */
+.admin-users-page .data-table td select {
+  min-width: 100px;
+}

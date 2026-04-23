@@ -1,0 +1,90 @@
+.activity-timeline {
+  position: relative;
+  padding-left: var(--space-xl);
+}
+
+.activity-timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+}
+
+.activity-item {
+  position: relative;
+  display: flex;
+  gap: var(--space-md);
+  padding-bottom: var(--space-lg);
+}
+
+.activity-item:last-child {
+  padding-bottom: 0;
+}
+
+.activity-marker {
+  position: absolute;
+  left: calc(-1 * var(--space-xl) - 1px);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-bg-secondary);
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.activity-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.activity-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.activity-label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.activity-time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.activity-details {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.activity-user {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.activity-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xl);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}

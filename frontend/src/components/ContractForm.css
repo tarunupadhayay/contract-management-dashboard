@@ -1,0 +1,54 @@
+.contract-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.form-section-title {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+}
+
+.party-row {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+}
+
+.party-row .form-input {
+  flex: 1;
+}
+
+.add-party-btn {
+  align-self: flex-start;
+}
+
+.input-error {
+  border-color: var(--color-error) !important;
+}
+
+.input-error:focus {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15) !important;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-color);
+}

@@ -1,0 +1,132 @@
+.version-timeline {
+  position: relative;
+  padding-left: var(--space-2xl);
+}
+
+.version-timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-accent), transparent);
+}
+
+.version-item {
+  position: relative;
+  margin-bottom: var(--space-md);
+}
+
+.version-marker {
+  position: absolute;
+  left: calc(-1 * var(--space-2xl) - 2px);
+  top: 14px;
+  z-index: 1;
+}
+
+.version-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 24px;
+  background: var(--color-bg-secondary);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-full);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.version-content {
+  padding: var(--space-md);
+}
+
+.version-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.version-title {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.version-note {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+.version-meta {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.version-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.version-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xl);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+/* Diff styles */
+.version-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.version-detail-full {
+  grid-column: 1 / -1;
+}
+
+.version-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.version-detail-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.version-detail-value {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}
+
+.diff-table {
+  overflow-x: auto;
+}
+
+.diff-old {
+  color: var(--color-error) !important;
+  background: rgba(239, 68, 68, 0.06);
+}
+
+.diff-new {
+  color: var(--color-success) !important;
+  background: rgba(16, 185, 129, 0.06);
+}
